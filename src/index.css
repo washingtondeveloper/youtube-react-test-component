@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-button-default: #f1f1f1;
+  --color-button-default-hover: #d3d2d2;
+  --color-button-increment: #41cc1f;
+  --color-button-decrement: #f02727;
+  --color-button-increment-hover: #38ad1b;
+  --color-button-decrement-hover: #d12020;
+  --color-button-increment-outline: #2e9615;
+  --color-button-decrement-outline: #8b1414;
+
+  --color-white: #fff;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
